@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #c8d6e5;
+}
+
+header {
+    background-color: #5f27cd;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    border-bottom: #341f97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.concluido {
+    text-decoration: line-through
+}
+
+ul li {
+    text-align: center;
+    font-size: 24px;
+}
